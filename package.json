@@ -1,0 +1,17 @@
+{
+  "name": "sojoy-19doors",
+  "version": "1.0.0",
+  "private": true,
+  "description": "19分贝门窗 - 高端系统门窗管理平台",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev:h5",
+    "install:all": "cd backend && npm install --cache /tmp/npm-cache && cd ../frontend && npm install --cache /tmp/npm-cache",
+    "db:setup": "cd backend && npx prisma db push && npx ts-node prisma/seed.ts",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

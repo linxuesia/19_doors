@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:linxuesia/19_doors_backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:linxuesia/19_doors_frontend.git
