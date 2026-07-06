@@ -12,6 +12,12 @@
   <img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="license"/>
 </p>
 
+<p align="center">
+  <a href="https://www.axureshow.com/project/hBFkYgxf/">
+    <img src="https://img.shields.io/badge/在线原型-Axure-8A2BE2?style=for-the-badge" alt="在线原型"/>
+  </a>
+</p>
+
 ---
 
 ## 项目简介
@@ -116,7 +122,7 @@ npm run dev             # 同时启动前后端
 | 文档 | 说明 |
 |------|------|
 | [技术详设.md](./技术详设.md) | 完整技术设计文档（数据库ER、API设计、权限模型） |
-| [产品原型.html](./产品原型.html) | 可交互的产品原型 |
+| [在线原型 (Axure)](https://www.axureshow.com/project/hBFkYgxf/) | 可交互的完整产品原型 |
 | [backend/API.md](./backend/API.md) | 后端 API 接口文档 |
 | [backend/TODO.md](./backend/TODO.md) | 后端开发待办 |
 
